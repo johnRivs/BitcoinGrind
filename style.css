@@ -1,0 +1,91 @@
+/**
+ * General
+ */
+body {
+    background-color: #191919;
+}
+
+/**
+ * Controls
+ */
+@keyframes ch {
+    from {
+        background-color: #FACC2E;
+        margin-right: 600;
+    }
+    to {
+        background-color: #25313c;
+        margin-right: 0px;
+    }
+}
+
+.controls {
+    animation: ch 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+.logo {
+    margin: 5px 0 7px 5px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.title {
+    font-family: Impact;
+    font-size: 40px;
+    color: #cccc99;
+    margin-left: 55px;
+    margin-top: -55px;
+}
+
+.controls input {
+    float: right;
+    cursor: pointer;
+    color: #25313c;
+    background-color: #cccc99;
+    border-color: #cccc99;
+    border-style: solid;
+    font-family: Impact;
+    color: #25313c;
+    transition: 1s;
+}
+
+.controls input:hover {
+    background-color: #db8658;
+}
+
+.controls-jump {
+    margin: -86px 429px 0 0;
+    font-size: 30px;
+}
+
+.controls-link {
+    margin: -86px 357px 0 0;
+    font-size: 30px;
+}
+
+.controls-reload {
+    margin: -86px 250px 0 0;
+    font-size: 30px;
+}
+
+.controls-previous {
+    margin: -95px 205px 0 0;
+    font-size: 45px;
+}
+
+.controls-next {
+    margin: -95px 15px 0 0;
+    font-size: 45px;
+}
+
+/**
+ * Faucet
+ */
+.faucet-frame {
+    position: fixed;
+    margin-top: -31px;
+    width: 99%;
+    height: 91%;
+}

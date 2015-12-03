@@ -1,3 +1,5 @@
+**NOTE: this is just a tidy version of the repo**
+
 BitcoinGrind
 ============
 
