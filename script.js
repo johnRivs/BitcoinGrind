@@ -9,18 +9,7 @@ var faucets = [
     'http://icanhas.cheezburger.com/gifs',
 ];
 
-var address,
-    currentFaucet = 0;
-
-function address() {
-    var address = prompt('Enter your bitcoin address:');
-
-    faucets = faucets.map(function(faucet) {
-        return faucet.indexOf("a=") != -1 ?
-               faucet + address :
-               faucet;
-    });
-}
+var currentFaucet = 0;
 
 function setFaucet() {
     document.querySelector('.faucet-frame').src = faucets[currentFaucet];
